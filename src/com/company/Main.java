@@ -35,7 +35,7 @@ public class Main {
         return -1;
     }
     public static int min(int[] arr) {
-// find max value from an array
+// find min value from an array
         int min =arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i]<min) {
